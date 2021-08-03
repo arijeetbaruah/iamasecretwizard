@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Seeker</name>
+        <description>Seeker by iamasecretwizard.</description>
+        <update version="1.0.1">
+            <file name="class-seeker.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/class-seeker.xml" />
+        </update>
+    </info>
+    
+    <element name="SecretWizard" type="Source" source="Core" id="ID_SECRETWIZARD_GM_BINDER_SOURCE_SEEKER">
+        <description>
+        <![CDATA[<p>Seekers are explorers and live to dig, delve, dive, and discover. </p>]]>
+        </description>
+        <setters>
+        <set name="abbreviation"></set>
+        <set name="url">https://www.gmbinder.com/share/-L6sbr0H-7zrOzOj20Vb</set>
+        <set name="image">https://www.gmbinder.com/images/jL74UQ4.jpg</set>
+        <set name="author" url="https://www.reddit.com/user/iamasecretwizard">u/iamasecretwizard</set>
+        <set name="official">false</set>
+        <set name="supplement">false</set>
+        <set name="playtest">false</set>
+        <set name="third-party">false</set>
+        <set name="homebrew">true</set>
+        <set name="league">false</set>
+        <set name="release">20190210</set>
+        </setters>
+    </element>
+    
+    <element name="Seeker" type="Class" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_SEEKER">
+        <description>
+            <p>Seekers are explorers and live to dig, delve, dive, and discover. They have the tools to find new clues constantly, with divination magic and broad access to investigation skills. But they are also versatile, able to pick up any one skill as they need to fulfill their goals.</p>
+            <h4>Cunning Warriors</h4>
+            <p>While some combatants use speed, subterfuge or savagery to get the upper hand in battle, seekers rely on their analytical skills to predict the attacks of their enemies or to detect their weak spots.</p>
+            <p class="indent"></p>
+            <h4>CREATING A Seeker</h4>
+            <p>When you create a seeker, first consider what is the type of mystery your character would want to solve. Is your character an archaeologist, attempting to recover ancient artifacts of untold power? Perhaps your character is more of an investigator, following clues to catch their mark. Or maybe what your character is really interested in is accumulating knowledge for the sake of knowledge itself – or the power that knowledge bestows.</p>
+            <h5 class="caption">QUICK BUILD</h5>
+            <p>You can make a seeker quickly following these suggestions. Make Strength your highest ability score, and Intelligence your second highest. Then, choose the investigator background.</p>
+            <h2>CLASS FEATURES</h2>
+            <p>As an Seeker, you gain the following class features.</p>
+            <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per Seeker level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Seeker level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, Medium armor, Shields</li>
+                <li><strong>Weapons:</strong> Simple and Martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+                <li><strong>Skills:</strong> Choose three from Arcana, Athletics, History, Insight, Investigation, Medicine, Nature, Religion and Perception</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>(a) scale mail, or (b) leather armor</li>
+                <li>a martial melee weapon of your choice</li>
+                <li>(a) a shield, or (b) 4 daggers</li>
+                <li>(a) a dungeoneer's pack or (b) an explorer's pack</li>
+            </ul>
+            
+            <h5 class="caption">THE </h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td>Proficiency Bonus</td><td class="left">Features</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+                </thead>
+                <tr><td> 1st</td><td>+2</td><td class="left">Canny Defense, Eclectic, Keen Observation</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 2nd</td><td>+2</td><td class="left">Spellcasting, Fighting Style, Improvisation</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 3rd</td><td>+2</td><td class="left">Seeker's Pursuit</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 4th</td><td>+2</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 5th</td><td>+3</td><td class="left">Extra Attack</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 6th</td><td>+3</td><td class="left">Exploit Opening, Seeker's Pursuit feature</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 7th</td><td>+3</td><td class="left">Tireless</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 8th</td><td>+3</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td> 9th</td><td>+4</td><td class="left">Exploit Opening (2d8)</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+                <tr><td>10th</td><td>+4</td><td class="left">Seeker's Pursuit feature</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+                <tr><td>11th</td><td>+4</td><td class="left">Seize the Chance</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+                <tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+                <tr><td>13th</td><td>+5</td><td class="left">Exploit Opening (3d8)</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+                <tr><td>14th</td><td>+5</td><td class="left">Prodigy</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+                <tr><td>15th</td><td>+5</td><td class="left">Flash of Genius</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+                <tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+                <tr><td>17th</td><td>+6</td><td class="left">Exploit Opening (4d8)</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+                <tr><td>18th</td><td>+6</td><td class="left">Seeker's Pursuit feature</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+                <tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+                <tr><td>20th</td><td>+6</td><td class="left">Masterstroke</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+            </table>
+
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_CANNY_DEFENSE" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_KEEN_OBSERVATION" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SPELLCASTING" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FIGHTING_STYLE" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_IMPROVISATION" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SEEKERS_PURSUIT" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_SEEKER" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXTRA_ATTACK" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_TIRELESS" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SEIZE_THE_CHANCE" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_PRODIGY" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FLASH_OF_GENIUS" />
+        </description>
+        <setters>
+            <set name="hd">d10</set>
+        </setters>
+        <sheet display="false" />
+        <rules>
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_CANNY_DEFENSE" level="1" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC" level="1" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_KEEN_OBSERVATION" level="1" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SPELLCASTING" level="2" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FIGHTING_STYLE" level="2" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_IMPROVISATION" level="2" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SEEKERS_PURSUIT" level="3" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_SEEKER" level="4" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING" level="6" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_TIRELESS" level="7" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SEIZE_THE_CHANCE" level="11" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_PRODIGY" level="14" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FLASH_OF_GENIUS" level="15" />
+
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+
+            <select type="Proficiency" name="Skill Proficiency, Seeker" supports="Skill,Seeker" number="3" />
+        </rules>
+    </element>
+    
+    <element name="Canny Defense" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_CANNY_DEFENSE">
+        <description>
+            <p>Some seekers choose to dodge incoming attacks deliberately, using forethought and prediction rather than agility. As long as you're not wearing heavy armor, you may add your Intelligence modifier instead of your Dexterity modifier to your AC. If you wear medium armor, the maximum bonus is restricted as normal.</p>
+            <p class="indent">If you have a negative Dexterity modifier, it is applied as a penalty to your AC even if you add your Intelligence modifier this way.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="ac:unarmored defense seeker:base" value="10" />
+			<!-- <stat name="ac:unarmored defense seeker:dexterity" value="dexterity:modifier" /> -->
+			<stat name="ac:unarmored defense seeker:intelligence" value="intelligence:modifier" />
+			<stat name="ac:unarmored defense seeker" value="ac:unarmored defense seeker:base" />
+			<!-- <stat name="ac:unarmored defense seeker" value="ac:unarmored defense seeker:dexterity" /> -->
+			<stat name="ac:unarmored defense seeker" value="ac:unarmored defense seeker:intelligence" />
+			<stat name="ac:calculation" value="ac:unarmored defense seeker" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Savant)" />
+        </rules>
+    </element>
+    <element name="Eclectic" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC">
+        <description>
+            <p>Either from learning or from experience, you have gained extensive insight about the world around you. You choose between gaining proficiency with two tools, learning two languages of your choice, or one of each. You can't learn exotic languages through this feature.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Eclectic" supports="Eclectic" number="2" />
+        </rules>
+    </element>
+    <element name="Tool" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC_TOOL_1">
+        <supports>Eclectic</supports>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Tool Proficiency, Eclectic" supports="Artisan tools"/>
+        </rules>
+    </element>
+    <element name="Language" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC_LANGUAGE_1">
+        <supports>Eclectic</supports>
+        <sheet display="false" />
+        <rules>
+            <select type="Language" name="Language, Eclectic" supports="Standard" />
+        </rules>
+    </element>
+    <element name="Tool" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC_TOOL_2">
+        <supports>Eclectic</supports>
+		<requirements>ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC_TOOL_1</requirements>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Tool Proficiency, Eclectic" supports="Artisan tools"/>
+        </rules>
+    </element>
+    <element name="Language" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC_LANGUAGE_2">
+        <supports>Eclectic</supports>
+		<requirements>ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ECLECTIC_LANGUAGE_1</requirements>
+        <sheet display="false" />
+        <rules>
+            <select type="Language" name="Language, Eclectic" supports="Standard" />
+        </rules>
+    </element>
+    <element name="Keen Observation" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_KEEN_OBSERVATION">
+        <description>
+            <p>You have learned the value of paying close attention to detail. You can use the Search action as a bonus action.</p>
+            <p class="indent">Additionally, you add your Intelligence modifier as a bonus to Wisdom (Insight) and Wisdom (Perception) checks.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You can use Search action as a bonus action</description>
+        </sheet>
+        <rules>
+            <stat name="insight:misc" value="intelligence:modifier" />
+            <stat name="perception:misc" value="intelligence:modifier" />
+        </rules>
+    </element>
+    <element name="Spellcasting" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SPELLCASTING">
+        <description>
+            <p>By the time you reach 2nd level, your cunning has granted you the ability to reshape reality, allowing you to cast spells. Your spells are discoveries that you can innately exploit</p>
+            <h4>Spell Slots</h4>
+            <p>The seeker table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+            <center>
+                <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+                <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+            </center>
+        </description>
+        <sheet display="false" />
+        <spellcasting name="Seeker" ability="Intelligence" allowReplace="true">
+            <list>Seeker</list>
+        </spellcasting>
+        <rules>
+            <stat name="seeker:spellcasting:slots:1" value="2" level="2" />
+            <stat name="seeker:spellcasting:slots:1" value="1" level="3" />
+            <stat name="seeker:spellcasting:slots:1" value="1" level="5" />
+            <stat name="seeker:spellcasting:slots:2" value="2" level="5" />
+            <stat name="seeker:spellcasting:slots:2" value="1" level="7" />
+            <stat name="seeker:spellcasting:slots:3" value="2" level="9" />
+            <stat name="seeker:spellcasting:slots:3" value="1" level="11" />
+            <stat name="seeker:spellcasting:slots:4" value="1" level="13" />
+            <stat name="seeker:spellcasting:slots:4" value="1" level="15" />
+            <stat name="seeker:spellcasting:slots:4" value="1" level="17" />
+            <stat name="seeker:spellcasting:slots:5" value="1" level="17" />
+            <stat name="seeker:spellcasting:slots:5" value="1" level="19" />
+
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" number="1" spellcasting="Seeker"/>
+            <select type="Spell" name="Spellcasting (Seeker)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" number="1" spellcasting="Seeker"/>
+        </rules>
+    </element>
+    <element name="Fighting Style" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FIGHTING_STYLE">
+        <description>
+            <p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Seeker"/>
+        </rules>
+    </element>
+    <element name="Improvisation" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_IMPROVISATION">
+        <description>
+            <p>Starting at 2nd level, you can adapt your tactics, feinting to predict your foes patterns and get the upper hand. Once during your turn, when you miss with a weapon attack, you can make another weapon attack as part of the same action.</p>
+            <p class="indent">You may use this ability a number of times equal to your Intelligence modifier (minimum one). You regain all uses of this ability once you finish a short or long rest.</p>
+        </description>
+        <sheet usage="{{improvisation:use}}/Short Rest">
+            <description>Once during your turn, when you miss with a weapon attack, you can make another weapon attack as part of the same action</description>
+        </sheet>
+        <rules>
+            <stat name="improvisation:use" value="1" bonus="base" />
+            <stat name="improvisation:use" value="intelligence:modifier" bonus="base" />
+        </rules>
+    </element>
+    <element name="Seeker's Pursuit" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SEEKERS_PURSUIT">
+        <description>
+            <p>At 3rd level, you begin specialized training to achieve your pursuit: Bloodhound, Keymaster, Occultist, Relic Hunter and Secret Broker all detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th leve</p>
+            <h4>Pursuit Spells</h4>
+            <p>Each pursuit has a list of spells – its pursuit spells – that you gain at the seeker levels noted in the pursuit description. Once you gain a pursuit spell, it doesn't count against the number of spells you know, and it is treated as a seeker spell for you.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Seeker Pursuits" supports="Seeker Pursuits" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_SEEKER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Fighter 4)" supports="Improvement Option,Fighter,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Fighter 8)" supports="Improvement Option,Fighter,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Fighter 12)" supports="Improvement Option,Fighter,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option,Fighter,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Fighter 19)" supports="Improvement Option,Fighter,19" level="19" />
+		</rules>
+	</element>
+    <element name="Extra Attack" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXTRA_ATTACK">
+        <description>
+            <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+        </description>
+        <sheet>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+        </sheet>
+        <rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+        </rules>
+    </element>
+    <element name="Exploit Opening" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING">
+        <description>
+            <p>Starting at 6th level, when you exploit the gaps in you find in your enemies' defenses. When you hit a creature twice with weapon attacks during your turn, your second attack deals an additional 1d8 damage and you can perform an exploit. You have three such exploits: Open Up, Outmaneuver and an option determined by your pursuit.</p>
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING_OPEN_UP" />
+            <div element="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING_OUTMANEUVER" />
+            <p>At 9th level and then again at 13th and 17th levels, the additional damage dealt by this feature increases by 1d8, to a maximum of 4d8 at 17th level.</p>
+        </description>
+        <sheet>
+            <description>When you hit a creature twice with weapon attacks during your turn, your second attack deals an additional {{exploit-opening:count}}d8 damage and you can perform an exploit</description>
+        </sheet>
+        <rules>
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING_OPEN_UP" level="6" />
+            <grant type="Class Feature" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING_OUTMANEUVER" level="6" />
+            <stat name="exploit-opening:count" value="1" />
+            <stat name="exploit-opening:count" value="1" level="9" />
+            <stat name="exploit-opening:count" value="1" level="13" />
+            <stat name="exploit-opening:count" value="1" level="17" />
+        </rules>
+    </element>
+    <element name="Exploit Opening, Open Up" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING_OPEN_UP">
+        <description>
+            <p>Until the end of your next turn, the next attack you or an ally makes against your target is made with advantage. You expose your target's defenses.</p>
+        </description>
+        <sheet>
+            <description>Until the end of your next turn, the next attack you or an ally makes against your target is made with advantage. You expose your target's defenses.</description>
+        </sheet>
+    </element>
+    <element name="Exploit Opening, Outmaneuver" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_EXPLOIT_OPENING_OUTMANEUVER">
+        <description>
+            <p>Until the end of your next turn, your target's attacks against you are made with disadvantage. You can't use this exploit while wearing heavy armor. You dismantle your target's offense.</p>
+        </description>
+        <sheet>
+            <description>Until the end of your next turn, your target's attacks against you are made with disadvantage. You can't use this exploit while wearing heavy armor. You dismantle your target's offense.</description>
+        </sheet>
+    </element>
+    <element name="Tireless" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_TIRELESS">
+        <description>
+            <p>Starting 7th level, you gain proficiency in Constitution saving throws. Additionally, if you are suffering from exhaustion, you treat it as one level less, unless your level exhaustion would cause you to die.</p>
+        </description>
+        <sheet>
+            <description>if you are suffering from exhaustion, you treat it as one level less, unless your level exhaustion would cause you to die.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+        </rules>
+    </element>
+    <element name="Seize the Chance" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_SEIZE_THE_CHANCE">
+        <description>
+            <p>At 11th level, when you hit an enemy twice with weapon attacks during your turn, you can use your bonus action to make an additional weapon attack against that creature</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>when you hit an enemy twice with weapon attacks during your turn, you can use your bonus action to make an additional weapon attack against that creature.</description>
+        </sheet>
+    </element>
+    <element name="Prodigy" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_PRODIGY">
+        <description>
+            <p>At 14th level, you can effortlessly comprehend new concepts and technical abilities. If you spend 1 hour listening to a language, other than a secret language such as Druidic, you learn it. If you spend 1 hour interacting with a tool within reach, you gain proficiency with it.</p>
+        </description>
+        <sheet>
+            <description>If you spend 1 hour listening to a language, other than a secret language such as Druidic, you learn it. If you spend 1 hour interacting with a tool within reach, you gain proficiency with it</description>
+        </sheet>
+    </element>
+    <element name="Flash of Genius" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FLASH_OF_GENIUS">
+        <description>
+            <p>At 15th level, when you roll initiative and have no uses of Improvisation left, you regain one use.</p>
+        </description>
+        <sheet>
+            <description>when you roll initiative and have no uses of Improvisation left, you regain one use</description>
+        </sheet>
+    </element>
+    <element name="Masterstroke" type="Class Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_MASTERSTROKE">
+        <description>
+            <p>At 20th level, when you use your Seize the Chance feature, you can use your bonus action to make two additional weapon attacks against that creature, rather than one.</p>
+        </description>
+        <sheet>
+            <description>when you use your Seize the Chance feature, you can use your bonus action to make two additional weapon attacks against that creature, rather than one.</description>
+        </sheet>
+    </element>
+
+    <!-- Bloodhound subclass -->
+
+    <element name="Bloodhound" type="Archetype" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_BLOODHOUND">
+        <supports>Seeker Pursuits</supports>
+        <description>
+            <p>You hone your skills to be able to track and capture individuals – dead or alive. The abilities you develop while following this pursuit are well-suited for bounty hunters, detectives, constables or watchers – focusing on take downs, tracking and snaring.</p>
+            <h4>Bloodhound Pursuit Spells</h4>
+            <table>
+                <thead>
+                    <tr><td>Seeker Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>ensnaring strike</td></tr>
+                <tr><td>5th</td><td>hold person</td></tr>
+                <tr><td>9th</td><td>erupting earth*</td></tr>
+                <tr><td>13th</td><td>grasping vine</td></tr>
+                <tr><td>17th</td><td>hold monster, wall of force</td></tr>
+            </table>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_SLEUTH" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ARRESTERS_EXPLOIT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_NO_ESCAPE" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_UNSTOPPABLE_FORCE" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_SLEUTH" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ARRESTERS_EXPLOIT" level="6" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_NO_ESCAPE" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_UNSTOPPABLE_FORCE" level="18" />
+
+			<grant type="Spell" id="ID_PHB_SPELL_ENSNARING_STRIKE" level="3" spellcasting="Seeker" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Seeker" />
+			<grant type="Spell" id="ID_POTA_SPELL_ERUPTINGEARTH" level="9" spellcasting="Seeker" />
+			<grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" level="13" spellcasting="Seeker" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Seeker" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="17" spellcasting="Seeker" />
+        </rules>
+    </element>
+    <element name="Sleuth" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_SLEUTH">
+        <description>
+            <p>As you enter this pursuit at 3rd level, you develop methods to find and capture your marks. You have advantage on Charisma checks to gather information and on Strength (Athletics) checks to attempt to grapple or shove a target.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Charisma checks to gather information and on Strength (Athletics) checks to attempt to grapple or shove a target</description>
+        </sheet>
+    </element>
+    <element name="Arrester's Exploit" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ARRESTERS_EXPLOIT">
+        <description>
+            <p>At 6th level, your attacks allow you to lock your enemies down. You gain the following exploit:</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ARRESTERS_EXPLOIT_APPREHEND" />
+        </rules>
+    </element>
+    <element name="Exploit Opening, Apprehend" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ARRESTERS_EXPLOIT_APPREHEND">
+        <description>
+            <p>You may make a grapple or shove attempt against that target. Additionally, until the end of your next turn, that enemy can't benefit from being invisible.</p>
+        </description>
+        <sheet>
+            <description>You may make a grapple or shove attempt against that target. Additionally, until the end of your next turn, that enemy can't benefit from being invisible.</description>
+        </sheet>
+    </element>
+    <element name="No Escape" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_NO_ESCAPE">
+        <description>
+            <p>Starting at 10th level, there's no escaping your grasp. You have advantage on Wisdom (Survival) checks to follow tracks. While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</p>
+            <p class="indent">Additionally, you count as one size larger for the purpose of grapple or shove attempts you make.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Wisdom (Survival) checks to follow tracks. While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area. Additionally, you count as one size larger for the purpose of grapple or shove attempts you make.</description>
+        </sheet>
+    </element>
+    <element name="Unstoppable Force" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_UNSTOPPABLE_FORCE">
+        <description>
+            <p>Starting at	18th level, you become relentless in your search. You have advantage on saving throws against effects that would make you paralyzed, petrified or stunned, and you are immune against effects that would reduce your speed.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against effects that would make you paralyzed, petrified or stunned, and you are immune against effects that would reduce your speed.</description>
+        </sheet>
+    </element>
+
+    <!-- Keymaster subclass -->
+
+    <element name="Keymaster" type="Archetype" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_KEYMASTER">
+        <supports>Seeker Pursuits</supports>
+        <description>
+            <p>Keymasters are keepers of ways – those who connect spaces in the ether to provide access to occult dimensions, and also those who are tasked with shutting down those pathways. Planar explorers, rift wardens and far travelers are among those who exploit these abilities to manipulate the fabric of space and time itself.</p>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DETECT_PORTAL" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_RIFTWALK" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_WRAP_EXPLOIT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DETECT_INTERLOPERS" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DOORWAY" />
+            <table>
+                <thead>
+                    <tr><td>Seeker Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>faerie fire</td></tr>
+                <tr><td>5th</td><td>blur</td></tr>
+                <tr><td>9th</td><td>magic circle (you may also choose aberrations when using this spell)</td></tr>
+                <tr><td>13th</td><td>banishment</td></tr>
+                <tr><td>17th</td><td>hallow (this spell also affects aberrations), teleportation circle</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DETECT_PORTAL" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_RIFTWALK" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_WRAP_EXPLOIT" level="6" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DETECT_INTERLOPERS" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DOORWAY" level="18" />
+			
+            <grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_MAGIC_CIRCLE" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_HALLOW" level="17" />
+            <grant type="Spell" id="ID_PHB_SPELL_TELEPORTATION_CIRCLE" level="17" />
+        </rules>
+    </element>
+    <element name="Detect Portal" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DETECT_PORTAL">
+        <description>
+            <p>As you enter this pursuit at 3rd level, you gain the ability to magically sense the presence of a planar portal. As an action, you detect the distance and direction to the closest planar portal within 1 mile of you. Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Short Rest">
+            <description>you detect the distance and direction to the closest planar portal within 1 mile of you</description>
+        </sheet>
+    </element>
+    <element name="Riftwalk" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_RIFTWALK">
+        <description>
+            <p>At 3rd level, you have a pool of planar energies that you can expend to slink into the ether which replenishes when you take a long rest. With this pool, you can teleport up to a number of feet equal to 20 x your seeker level.</p>
+            <p class="indent">As a bonus action, you can expend a number of feet from your pool to teleport up to that distance to an unoccupied space you can see. The maximum amount of feet you may spend this way on a single use is 10 feet per seeker level.</p>
+            <p class="indent">For example, a 4th level seeker would have a pool of 80 feet to spend, but could only spend up to 40 feet on a single bonus action.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{riftwalk:pool}}/Long Rest">
+            <description>you can expend a number of feet from your pool to teleport up to that distance to an unoccupied space you can see. The maximum amount of feet you may spend this way on a single use is 10 feet per seeker level</description>
+        </sheet>
+        <rules>
+            <stat name="riftwalk:pool" value="level:seeker" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift1" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift2" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift3" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift4" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift5" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift6" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift7" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift8" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift9" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift10" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift11" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift12" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift13" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift14" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift15" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift16" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift17" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift18" />
+            <stat name="riftwalk:pool" value="level:seeker" bonus="rift19" />
+        </rules>
+    </element>
+    <element name="Exploit Opening, Warp Exploit" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_WRAP_EXPLOIT">
+        <description>
+            <p>Starting at 6th level, your attacks can latch onto the ether essence of your targets. You gain the following exploit:</p>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_WRAP_EXPLOIT_ETHEREAL_TETHERS" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_WRAP_EXPLOIT_ETHEREAL_TETHERS" />
+        </rules>
+    </element>
+    <element name="Ethereal Tethers" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_WRAP_EXPLOIT_ETHEREAL_TETHERS">
+        <description>
+            <p>All damage dealt by your attack becomes force damage and you may force the target of your attack to make a Charisma saving throw against your spell save DC. On a failed save, that enemy suffers the penalties of a slow spell until the end of your next turn.</p>
+        </description>
+        <sheet>
+            <description>All damage dealt by your attack becomes force damage and you may force the target of your attack to make a Charisma saving throw against your spell save DC. On a failed save, that enemy suffers the penalties of a slow spell until the end of your next tur</description>
+        </sheet>
+    </element>
+    <element name="Detect Interlopers" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DETECT_INTERLOPERS">
+        <description>
+            <p>Starting at 10th level, you can perceive the presence of interplanar creatures. As an action, you know the location of any of the following types of creatures with 120 feet of you: aberrations, celestials, elementals, fey, fiends, or undead. This also reveals which of those creatures are present and their numbers.</p>
+        </description>
+        <sheet action="Action">
+            <description>You know the location of any of the following types of creatures with 120 feet of you: aberrations, celestials, elementals, fey, fiends, or undead. This also reveals which of those creatures are present and their numbers.</description>
+        </sheet>
+    </element>
+    <element name="Doorway" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_DOORWAY">
+        <description>
+            <p>Starting at	18th level, you master your abilities to create dimensional pathways. You can use this ability to cast plane shift or teleport by spending 100 feet from your Riftwalk pool</p>
+        </description>
+        <sheet>
+            <description>You can use this ability to cast plane shift or teleport by spending 100 feet from your Riftwalk pool.</description>
+            <grant type="Spell" id="ID_PHB_SPELL_PLANE_SHIFT" />
+            <grant type="Spell" id="ID_PHB_SPELL_TELEPORT" />
+        </sheet>
+    </element>
+
+    <!-- Occultist subclass -->
+
+    <element name="Occultist" type="Archetype" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_OCCULTIST">
+        <supports>Seeker Pursuits</supports>
+        <description>
+            <p>There are those whose ambition and curiosity drives them to seek the teachings of ancient, eldritch beings that defy logic and reason. These occultists risk their sanity to find the knowledge they crave, and in doing so, learn the forbidden secrets of the abyss.</p>
+            <table>
+                <thead>
+                    <tr><td>Seeker Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>arms of hadar</td></tr>
+                <tr><td>5th</td><td>crown of madness</td></tr>
+                <tr><td>9th</td><td>hunger of hadar</td></tr>
+                <tr><td>13th</td><td>evard's black tentacles</td></tr>
+                <tr><td>17th</td><td>contact other plane, enervation</td></tr>
+            </table>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_METHOD_TO_MADNESS" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_UNSPEAKABLE_ARCANA" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MADDENING_EXPLOIT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ELDRITCH_ENLIGHTENMENT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_GAZE_INTO_THE_ABYSS" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_METHOD_TO_MADNESS" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_UNSPEAKABLE_ARCANA" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MADDENING_EXPLOIT" level="6" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ELDRITCH_ENLIGHTENMENT" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_GAZE_INTO_THE_ABYSS" level="18" />
+
+            <grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" level="3" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_CROWN_OF_MADNESS" level="5" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_HUNGER_OF_HADAR" level="5" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="13" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONTACT_OTHER_PLANE" level="17" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_XGTE_SPELL_ENERVATION" level="17" spellcasting="Seeker" />
+        </rules>
+    </element>
+    <element name="Method to Madness" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_METHOD_TO_MADNESS">
+        <description>
+            <p>At 3rd level, you've learned to have a measure of control of your fugue states. When you suffer short-term or long-term madness, roll the d100 two times. You can choose which result to keep.</p>
+            <p class="indent">At 6th level, you gain a stronger, yet still shaky, grip of your sanity. When you suffer short-term madness, the duration is reduced to 2d4 rounds, and when you suffer long-term madness, the duration is reduced to 2d4 hours.</p>
+            <p class="indent">At 10th level, when you roll for the duration of madness, you treat the result of the d4 rolls as a 1.</p>
+        </description>
+        <sheet>
+            <description>When you suffer short-term or long-term madness, roll the d100 two times. You can choose which result to keep.</description>
+            <description level="6">When you suffer short-term or long-term madness, roll the d100 two times. You can choose which result to keep. When you suffer short-term madness, the duration is reduced to 2d4 rounds, and when you suffer long-term madness, the duration is reduced to 2d4 hours</description>
+            <description level="10">When you suffer short-term or long-term madness, roll the d100 two times. You can choose which result to keep. When you suffer short-term madness, the duration is reduced to 2d4 rounds, and when you suffer long-term madness, the duration is reduced to 2d4 hours. when you roll for the duration of madness, you treat the result of the d4 rolls as a 1</description>
+        </sheet>
+    </element>
+    <element name="Unspeakable Arcana" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_UNSPEAKABLE_ARCANA">
+        <description>
+            <p>As you enter this pursuit at 3rd level, you gain the ability to extract arcane energy from eldritch sources at the cost of your sanity. You may cast a seeker spell using an already expended spell slot.</p>
+            <p class="indent">After you cast the spell, you immediately suffer short-term madness and you cannot use this ability again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>You may cast a seeker spell using an already expended spell slot. After you cast the spell, you immediately suffer short-term madness</description>
+        </sheet>
+    </element>
+    <element name="Maddening Exploit" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MADDENING_EXPLOIT">
+        <description>
+            <p>Starting at 6th level, your assaults can whittle your enemies' sanity. You gain the following exploit:</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MADDENING_EXPLOIT_UNNERVE" />
+        </rules>
+    </element>
+    <element name="Exploit Opening, Unnerve" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MADDENING_EXPLOIT_UNNERVE">
+        <description>
+            <p>Until the end of your next turn, your target has disadvantage on concentration checks, can't make reactions and can't benefit from advantage.</p>
+        </description>
+        <sheet>
+            <description>Until the end of your next turn, your target has disadvantage on concentration checks, can't make reactions and can't benefit from advantage.</description>
+        </sheet>
+    </element>
+    <element name="Eldritch Enlightenment" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_ELDRITCH_ENLIGHTENMENT">
+        <description>
+            <p>At 10th level, you can open your consciousness to the whispers of beings from the great beyond. When you make a Intelligence, Wisdom or Charisma check, you can choose to make it with advantage. However, after the check is made, roll 1d6. On a 6, you suffer long-term madness as the whispers overtake your mind.</p>
+        </description>
+        <sheet>
+            <description>When you make a Intelligence, Wisdom or Charisma check, you can choose to make it with advantage. However, after the check is made, roll 1d6. On a 6, you suffer long-term madness as the whispers overtake your mind.</description>
+        </sheet>
+    </element>
+    <element name="Gaze into the Abyss" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_GAZE_INTO_THE_ABYSS">
+        <description>
+            <p>By 18th level, you've gained the ability to pour ineffable thoughts into the mind of a creature. As an action, you psychically assault a creature within 90 feet of you with an Intelligence score of 2 or higher. That creature must make an Intelligence saving throw against your spell save DC, taking 8d8 psychic damage or half that amount on a successful save. On a failed save, the creature becomes insane for 1 minute, and can’t take actions, can't understand what other creatures say, can’t read, and speaks only in gibberish. Its movement is erratic. At the end of each of its turns, the creature can attempt another Intelligence saving throw. On a successful save, it ends this effect.</p>
+            <p class="indent">After you use this ability, you suffer short-term madness, and, once you use this ability, you cannot use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>you psychically assault a creature within 90 feet of you with an Intelligence score of 2 or higher. That creature must make an Intelligence saving throw against your spell save DC, taking 8d8 psychic damage or half that amount on a successful save. On a failed save, the creature becomes insane for 1 minute, and can’t take actions, can't understand what other creatures say, can’t read, and speaks only in gibberish. Its movement is erratic. At the end of each of its turns, the creature can attempt another Intelligence saving throw. On a successful save, it ends this effect. After you use this ability, you suffer short-term madness.</description>
+        </sheet>
+    </element>
+
+    <!-- Relic Hunter -->
+    
+    <element name="Relic Hunter" type="Archetype" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_RELIC_HUNTER">
+        <supports>Seeker Pursuits</supports>
+        <description>
+            <p>Some want the glory, some want the power, some want to uncover eldritch mysteries – but as a relic hunter, your goal is to retrieve artifacts and objects from the most dangerous locations. Coursing through cursed crypts, treacherous jungles, or fortified vaults, you have the toolset to evade danger and exploit the mystical abilities of forgotten relics.</p>
+            <h4>Relic Hunter Pursuit Spells</h4>
+            <table>
+                <thead>
+                    <tr><td>Seeker Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>false life</td></tr>
+                <tr><td>5th</td><td>spider climb</td></tr>
+                <tr><td>9th</td><td>remove curse</td></tr>
+                <tr><td>13th</td><td>death ward</td></tr>
+                <tr><td>17th</td><td>animate objects, skill enhancement*</td></tr>
+            </table>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_TOMB_RAIDER" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_EVASIVE_EXPLOIT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_OBJECT_READING" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MAGIC_ITEM_TALENT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_REVERSAL_OF_FORTUNE" />
+
+            <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="3" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" level="5" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_REMOVE_CURSE" level="9" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="13" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_ANIMATE_OBJECTS" level="17" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_XGTE_SPELL_SKILL_EMPOWERMENT" level="17" spellcasting="Seeker" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_TOMB_RAIDER" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_EVASIVE_EXPLOIT" level="6" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_OBJECT_READING" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MAGIC_ITEM_TALENT" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_REVERSAL_OF_FORTUNE" level="18" />
+        </rules>
+    </element>
+    <element name="Tomb Raider" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_TOMB_RAIDER">
+        <description>
+            <p>As you enter this pursuit at 3rd level, you become adept in rushing past danger and use every resource at your advantage. You gain the following benefits:</p>
+            <ul>
+                <li>You may use the Dash and Use Object actions as a bonus action.</li>
+                <li>Opportunity attacks made against you are made with disadvantage.</li>
+                <li>When you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</li>
+            </ul>
+        </description>
+        <sheet action="Bonus Action">
+            <description>the Dash and Use Object actions as a bonus action. Opportunity attacks made against you are made with disadvantage. When you make a running long jump, the distance you can cover increases by {{strength:modifier}}</description>
+        </sheet>
+    </element>
+    <element name="Evasive Exploit" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_EVASIVE_EXPLOIT">
+        <description>
+            <p>By 6th level, you learn how to seize the opportunity to escape your attackers. You gain the following exploit:</p>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_EVASIVE_EXPLOIT_TACTICAL_ROLL" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_EVASIVE_EXPLOIT_TACTICAL_ROLL" />
+        </rules>
+    </element>
+    <element name="Exploit Opening, Tactical roll" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_EVASIVE_EXPLOIT_TACTICAL_ROLL">
+        <description>
+            <p>You can move up to half your speed without provoking attacks of opportunity</p>
+        </description>
+        <sheet>
+            <description>You can move up to half your speed without provoking attacks of opportunity</description>
+        </sheet>
+    </element>
+    <element name="Object Reading" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_OBJECT_READING">
+        <description>
+            <p>Starting at 10th level, you can read the magical aura of an item to know more about its origins. By spending 1 minute performing an arcane investigation with an object, you may pry out certain information imprinted on it. The object must be within your reach while performing this ritual. The information you draw out from an object can only be about its creation or about events that transpired in its vicinity in the past 24 hours.</p>
+            <p class="indent">The information stored on objects about events can only relate to happenings that could be seen or heard within 20 feet of the object.</p>
+            <p class="indent">At GM's discretion, the object may also store information from other significant events around it. For example, a sword may store information about why it was broken, or about important creatures that were slain by it.</p>
+        </description>
+        <sheet>
+            <description>By spending 1 minute performing an arcane investigation with an object, you may pry out certain information imprinted on it. The object must be within your reach while performing this ritual. The information you draw out from an object can only be about its creation or about events that transpired in its vicinity in the past 24 hours.</description>
+        </sheet>
+    </element>
+    <element name="Magic Item Talent" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MAGIC_ITEM_TALENT">
+        <description>
+            <p>At 10th level, your cunning allows you to exploit the hidden powers of artifacts. You ignore all class, race, and level requirements on the use of magic items.</p>
+        </description>
+        <sheet>
+            <description>You ignore all class, race, and level requirements on the use of magic items.</description>
+        </sheet>
+    </element>
+    <element name="Reversal of Fortune" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_REVERSAL_OF_FORTUNE">
+        <description>
+            <p>Starting at	18th level, your luck allows you to perform stunning feats. When you roll a natural 1 on a d20 roll, you treat it as a natural 20.</p>
+        </description>
+        <sheet>
+            <description>When you roll a natural 1 on a d20 roll, you treat it as a natural 20.</description>
+        </sheet>
+    </element>
+
+    <!-- Secret Broker -->
+
+    <element name="Secret Broker" type="Archetype" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_SECRET_BROKER">
+        <supports>Seeker Pursuits</supports>
+        <description>
+            <p>The market of knowledge is just like any other, ruled by supply and demand. As a secret broker, however, your job is to control both – ferreting the truth from the rumors, spreading misinformation, and prying confidential information. Armed with deceitful magic, your wits and your blade, you have all the resources to be successful in your clandestine trade.</p>
+            <h4>Secret Broker Pursuit Spells</h4>
+            <table>
+                <thead>
+                    <tr><td>Seeker Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>dissonant whispers</td></tr>
+                <tr><td>5th</td><td>invisibility</td></tr>
+                <tr><td>9th</td><td>enemies abound*</td></tr>
+                <tr><td>13th</td><td>greater invisibility</td></tr>
+                <tr><td>17th</td><td>mislead, modify memory</td></tr>
+            </table>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_BONUS_PROFICIENCIES" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MACHINATIONS" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSIDIOUS_EXPLOIT" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSCRUTABLE" />
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MINT_MEMORY" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_BONUS_PROFICIENCIES" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MACHINATIONS" level="3" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSIDIOUS_EXPLOIT" level="6" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSCRUTABLE" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MINT_MEMORY" level="10" />
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_SHROUDED_IN_MYSTERY" level="18" />
+
+            <grant type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="3" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_XGTE_SPELL_ENEMIES_ABOUND" level="9" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="13" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="17" spellcasting="Seeker" />
+            <grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="17" spellcasting="Seeker" />
+        </rules>
+    </element>
+
+    <element name="Bonus Proficiencies" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_BONUS_PROFICIENCIES">
+        <description>
+            <p>At 3rd level, you gain proficiency in one of the following skills: Deception, Persuasion, Sleight of Hand or Stealth</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency, Secret Broker" supports="Skill,Secret Broker" />
+        </rules>
+    </element>
+    <element name="Machinations" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MACHINATIONS">
+        <description>
+            <p>As you enter this pursuit at 3rd level, how to subtly influence conflict. When you use the Disengage, Dodge, Help or Hide action, you can then use any of those actions as a bonus action</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>When you use the Disengage, Dodge, Help or Hide action, you can then use any of those actions as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Insidious Exploit" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSIDIOUS_EXPLOIT">
+        <description>
+            <p>By 6th level, your attacks unnerve your foes. You gain the following exploit:</p>
+            <div element="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSIDIOUS_EXPLOIT_AGITATE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSIDIOUS_EXPLOIT_AGITATE" />
+        </rules>
+    </element>
+    <element name="Exploit Opening, Agitate" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSIDIOUS_EXPLOIT_AGITATE">
+        <description>
+            <p>Your target must make a Wisdom saving throw against your spell save DC. On a failed save, that enemy is frightened of you until the start of your next turn.</p>
+        </description>
+        <sheet>
+            <description>Your target must make a Wisdom saving throw against your spell save DC. On a failed save, that enemy is frightened of you until the start of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Inscrutable" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_INSCRUTABLE">
+        <description>
+            <p>At 10th level, creatures have disadvantage on contested Intelligence, Wisdom and Charisma checks they make against you</p>
+        </description>
+        <sheet>
+            <description>creatures have disadvantage on contested Intelligence, Wisdom and Charisma checks they make against you</description>
+        </sheet>
+    </element>
+    <element name="Mint Memory" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_MINT_MEMORY">
+        <description>
+            <p>Starting at 10th level, you have access to a special ritual that allows you to store a creature's memory into an object or show a stored memory to others. After spending 1 minute while a coin is within your reach, a willing creature may touch the object to store one of its memories into it, at the creature's choice. Even if the creature is uncertain about the full details of that memory, storing the memory this way imparts all the details as far as that creature was aware of at the time. An object can only store one memory at the time, and the memory cannot span a period of time longer than 1 hour. After a creature stores a memory this way, if the creature is willing, that creature may also erase that specific memory from its mind.</p>
+            <p class="indent">After this is done, you may select a command word. When a creature touches the object and speaks that word, that creature witnesses the memory as it was stored. This an immediate effect that takes no time.</p>
+        </description>
+        <sheet>
+            <description>After spending 1 minute while a coin is within your reach, a willing creature may touch the object to store one of its memories into it, at the creature's choice. Even if the creature is uncertain about the full details of that memory, storing the memory this way imparts all the details as far as that creature was aware of at the time. An object can only store one memory at the time, and the memory cannot span a period of time longer than 1 hour. After a creature stores a memory this way, if the creature is willing, that creature may also erase that specific memory from its mind. After this is done, you may select a command word. When a creature touches the object and speaks that word, that creature witnesses the memory as it was stored.</description>
+        </sheet>
+    </element>
+    <element name="Shrouded in Mystery" type="Archetype Feature" source="SecretWizard" id="ID_SECRETWIZARD_SEEKER_ARCHETYPE_FEATURE_SHROUDED_IN_MYSTERY">
+        <description>
+            <p>At 18th level, you become a riddle wrapped into an enigma. You are always under the effects of a mind blank spell. If you attack a creature or cast a harmful spell against one, this effect is suppressed for 1 hour.</p>
+            <p class="indent">You can also use an action to voluntarily suppress this effect. If you suppress this effect this way, you can use an action to enable it again.</p>
+        </description>
+        <sheet>
+            <description>You are always under the effects of a mind blank spell. If you attack a creature or cast a harmful spell against one, this effect is suppressed for 1 hour. You can also use an action to voluntarily suppress this effect. If you suppress this effect this way, you can use an action to enable it again.</description>
+        </sheet>
+    </element>
+
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+        <supports>Fighting Style, Seeker</supports>
+    </append>
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+        <supports>Fighting Style, Seeker</supports>
+    </append>
+    <append id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+        <supports>Fighting Style, Seeker</supports>
+    </append>
+
+    <element name="Skirmishing" type="Class Feature" source="Player’s Handbook" id="ID_SECRETWIZARD_SEEKER_CLASS_FEATURE_FIGHTINGSTYLE_SKIRMISHING">
+		<supports>Fighting Style, Seeker</supports>
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls you make with weapons with the thrown property.</p>
+		</description>
+		<sheet>
+			<description>You gain a +1 bonus to attack and damage rolls you make with weapons with the thrown property.</description>
+		</sheet>
+	</element>
+
+    <!-- 1st level spells -->
+    <append id="ID_PHB_SPELL_ALARM">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_MAGIC">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISGUISE_SELF">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FEATHER_FALL">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_IDENTIFY">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ILLUSORY_SCRIPT">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_JUMP">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LONGSTRIDER">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SILENT_IMAGE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TENSERS_FLOATING_DISK">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_UNSEEN_SERVANT">
+        <supports>Seeker</supports>
+    </append>
+
+    <!-- 2nd level spells -->
+    <append id="ID_PHB_SPELL_ARCANE_LOCK">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_AUGURY">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CONTINUAL_FLAME">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DARKNESS">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_VISION_DARKVISION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DETECT_THOUGHTS">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FIND_TRAPS">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GENTLE_REPOSE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_KNOCK">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LESSER_RESTORATION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEVITATE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_ANIMALS_OR_PLANTS">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_OBJECT">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAGIC_MOUTH">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_NYSTULS_MAGIC_AURA">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ROPE_TRICK">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SEE_INVISIBILITY">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SILENCE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_POTA_SPELL_SKYWRITE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_ZONE_OF_TRUTH">
+        <supports>Seeker</supports>
+    </append>
+
+    <!-- 3rd level spells -->
+    <append id="ID_XGTE_SPELL_CATNAP">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CLAIRVOYANCE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DAYLIGHT">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DISPEL_MAGIC">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_HASTE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MAJOR_IMAGE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MELD_INTO_STONE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_NONDETECTION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SENDING">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SLOW">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_NONDETECTION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_TONGUES">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_XGTE_SPELL_TINY_SERVANT">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WATER_BREATHING">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_WATER_WALK">
+        <supports>Seeker</supports>
+    </append>
+
+    <!-- 4th level spell -->
+    <append id="ID_PHB_SPELL_ARCANE_EYE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_DIVINATION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FABRICATE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEOMUNDS_SECRET_CHEST">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LOCATE_CREATURE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_STONE_SHAPE">
+        <supports>Seeker</supports>
+    </append>
+
+    <!-- 5th level spell -->
+    <append id="ID_PHB_SPELL_CREATION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_GREATER_RESTORATION">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LEGEND_LORE">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_PASSWALL">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND">
+        <supports>Seeker</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SCRYING">
+        <supports>Seeker</supports>
+    </append>
+
+    <!-- Skills  -->
+    <append id="ID_PROFICIENCY_SKILL_ARCANA">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_ATHLETICS">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_HISTORY">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_INSIGHT">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_INVESTIGATION">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_MEDICINE">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_NATURE">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_RELIGION">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_PERCEPTION">
+		<supports>Skill,Seeker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_DECEPTION">
+		<supports>Skill,Secret Broker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_PERSUASION">
+		<supports>Skill,Secret Broker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND">
+		<supports>Skill,Secret Broker</supports>
+	</append>
+    <append id="ID_PROFICIENCY_SKILL_STEALTH">
+		<supports>Skill,Secret Broker</supports>
+	</append>
+</elements>
